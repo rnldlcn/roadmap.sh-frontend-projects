@@ -1,4 +1,4 @@
-# Frontend Developer Roadmap Sandbox
+# Frontend Developer Roadmap Projects
 
 Hey, I'm Roniel. I'm currently an IT student, and this repository is my daily practice for learning frontend development from the ground up. 
 
