@@ -13,5 +13,6 @@ I'm keeping things organized by putting projects based on their core focus, you 
 ## Projects
 
 ### HTML
-* [Single Page CV](./html-projects/single-page-cv) - The raw semantic HTML foundation.
-* [Next Roadmap Project](./HTML/next-project-folder) - Brief description of what it is.
+**1. Single Page CV**
+* [View Source Code](./html-projects/single-page-cv)
+* [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/single-page-cv/index.html)
