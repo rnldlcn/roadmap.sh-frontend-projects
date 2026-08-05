@@ -8,4 +8,10 @@ I treat this repo like a daily training block. I wake up, write code, figure out
 
 ## Repo Structure
 
-I'm keeping things organized by putting projects based on their core focus, you will find each project in their respective folders.
+I'm keeping things organized by putting projects based on their core focus, you will find each project and code in their respective folders.
+
+## Projects
+
+### HTML
+* [Single Page CV](./html-projects/single-page-cv) - The raw semantic HTML foundation.
+* [Next Roadmap Project](./HTML/next-project-folder) - Brief description of what it is.
