@@ -21,6 +21,6 @@ I'm keeping things organized by putting projects based on their core focus, you 
 
 **2. Basic HTML Website**
 * [View Source Code](./html-projects/basic-html-website)
-* * [View Project Guideline](https://roadmap.sh/projects/basic-html-website)
+* [View Project Guideline](https://roadmap.sh/projects/basic-html-website)
 * [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/basic-html-website/index.html)
  ![Basic HTML Website Preview](./html-projects/basic-html-website/basic-html-website.png)
