@@ -15,6 +15,7 @@ I'm keeping things organized by putting projects based on their core focus, you 
 ### HTML
 **1. Single Page CV**
 * [View Source Code](./html-projects/single-page-cv)
+* [View Project Guideline](https://roadmap.sh/projects/single-page-cv)
 * [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/single-page-cv/index.html)
  ![Single Page CV Preview](./html-projects/single-page-cv/single-page-cv.png)
 
