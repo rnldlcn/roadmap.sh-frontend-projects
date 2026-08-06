@@ -17,3 +17,8 @@ I'm keeping things organized by putting projects based on their core focus, you 
 * [View Source Code](./html-projects/single-page-cv)
 * [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/single-page-cv/index.html)
  ![Single Page CV Preview](./html-projects/single-page-cv/single-page-cv.png)
+
+**2. Basic HTML Website**
+* [View Source Code](./html-projects/basic-html-website)
+* [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/basic-html-website/index.html)
+ ![Basic HTML Website Preview](./html-projects/basic-html-website/basic-html-website.png)
