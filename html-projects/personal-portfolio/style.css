@@ -1,0 +1,116 @@
+:root {
+  --primary-color:  #FAF9F6;
+  --accent-color: #8C807E;
+  --bg-dark: #2c3e50;
+  --text-light: #ecf0f1;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+ul{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 6px
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-light);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 600px;
+    letter-spacing: 1px;
+}
+
+.hero-section{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--accent-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url('/html-projects/personal-portfolio/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--text-light);
+    height: 80vh;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+.hero-section h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.projects, .work-experience, .education{
+    
+     border: 3px solid var(--accent-color);
+     margin: 1rem auto;
+     padding-top: 1rem;
+     padding-bottom: 3rem;
+     border-radius: 10px;
+     text-align: center;
+     
+}
+
+.projects h2, .work-experience h2, .education h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--accent-color);
+}
+
+.projects a{ 
+    text-decoration: underline black 2px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.reviews{
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.reviews blockquote{
+    font-style: italic;
+    margin: 1rem auto;
+    max-width: 600px;
+    line-height: 1.5;
+    padding : 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+
+/* FOR WEB 
+.boxes{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;    
+} */
