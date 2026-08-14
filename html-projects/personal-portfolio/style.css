@@ -7,6 +7,8 @@
 
 body{
     background-color: var(--primary-color);
+    margin: 0;
+  padding: 0;
 }
 
 ul{
@@ -25,7 +27,6 @@ nav{
     padding: 1rem;
     background-color: var(--accent-color);
     color: var(--text-light);
-    padding: 1rem;
 }
 
 nav a{
@@ -69,24 +70,29 @@ p{
     margin-bottom: 1rem;
 }
 
-.projects, .work-experience, .education{
+.projects, .work-experience, .education, .project1, .project2, .contact{
     
      border: 3px solid var(--accent-color);
      margin: 1rem auto;
      padding-top: 1rem;
      padding-bottom: 3rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
      border-radius: 10px;
      text-align: center;
+     width: 90%;
+     
      
 }
 
-.projects h2, .work-experience h2, .education h2{
+
+.projects h2, .work-experience h2, .education h2, .projects-page h2{
     font-size: 2rem;
     margin-bottom: 2rem;
     color: var(--accent-color);
 }
 
-.projects a{ 
+.projects a, .projects-page a{ 
     text-decoration: underline black 2px;
     color: black;
     font-size: 1.2rem;
@@ -95,6 +101,9 @@ p{
 .reviews{
     margin: 2rem auto;
     padding: 1rem;
+    overflow-wrap: break-word;
+    width: 90%;
+    
 }
 
 .reviews blockquote{
@@ -107,10 +116,21 @@ p{
     border-radius: 10px;
 }
 
+@media (min-width: 768px) {
+    .boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;    
+    }
+    .nav-links{
+        gap: 20px;
+        font-size: 16px;
+    }
+    .contact{
 
-/* FOR WEB 
-.boxes{
-    display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;    
-} */
+     width: 30%;
+     
+}
+}
+
+

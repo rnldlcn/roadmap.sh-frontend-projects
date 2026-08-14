@@ -24,3 +24,10 @@ I'm keeping things organized by putting projects based on their core focus, you 
 * [View Project Guideline](https://roadmap.sh/projects/basic-html-website)
 * [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/basic-html-website/index.html)
  ![Basic HTML Website Preview](./html-projects/basic-html-website/basic-html-website.png)
+
+ **2. Personal Portfolio Website**
+* [View Source Code](./html-projects/personal-portfolio)
+* [View Project Guideline](https://roadmap.sh/projects/portfolio-website)
+* [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/personal-portfolio/index.html)
+ ![Basic HTML Website Preview](./html-projects/personal-porfolio/personal-portfolio.png)
+
