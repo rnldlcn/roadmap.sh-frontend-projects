@@ -31,3 +31,8 @@ I'm keeping things organized by putting projects based on their core focus, you 
 * [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/personal-portfolio/index.html)
  ![Basic HTML Website Preview](./html-projects/personal-portfolio/personal-portfolio.png)
 
+ **4. Changelog Component**
+* [View Source Code](./html-projects/changelog-component)
+* [View Project Guideline](https://roadmap.sh/projects/changelog-component)
+* [🔴 Live Demo](https://rnldlcn.github.io/roadmap.sh-frontend-projects/html-projects/changelog-component/index.html)
+ ![Basic HTML Website Preview](./html-projects/changelog-component/changelog-component.png)

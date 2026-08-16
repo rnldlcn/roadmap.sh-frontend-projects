@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.changelog {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 600px;
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.changelog-title{
+    display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center;    /* Centers elements horizontally */
+  text-align: center; 
+  margin-bottom:30px;
+}
+.changelog-title h1, .changelog-title p{
+    margin: 3px;
+}
+
+
+.changelog-item{
+  display: grid;
+  grid-template-columns: 1fr 40px 2fr; 
+  align-items: center;
+
+}
+
+.changelog h4{
+    text-align: right;
+    color: #94a3b8;
+    font-size: 14px;
+
+}
+
+.changelog-divider{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 60px; 
+}
+
+.changelog-divider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  background-color: #334155;
+}
+
+.changelog-dot{
+      position: relative;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #1e293b;
+}
+
+.changelog-content{
+    color: #1e293b;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.changelog-button{
+    background-color: black;
+    color: white;
+  border-radius: 7px;
+    max-width: 200px;
+     display: block;
+  margin-left: auto;    
+  margin-right: auto;     
+  padding: 8px 16px;
+  margin-top: 30px;
+  cursor: pointer;
+
+}
